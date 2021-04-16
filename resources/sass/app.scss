@@ -1,0 +1,53 @@
+/* nav */
+
+nav{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 50px;
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin: 5px auto;
+        transition: all 0.5s ease-in-out;
+    }
+    .logo:hover{
+        transform: scale(1.02);
+    }
+    ul{
+        display: none;
+    }
+}
+
+.week1{
+    font-family: sans-serif;
+    max-width:1280px;
+    margin: 0 auto;
+    footer{
+        max-width: 1280px;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        background: #AAA;
+    }
+    div{
+        margin: 3rem 0;
+    }
+    
+    img{
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+    }
+    
+    span{
+        font-size: 0.8rem;
+    }
+    
+    .image{
+        display: flex;
+        flex-direction: column;
+    }
+}
