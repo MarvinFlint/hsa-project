@@ -34,6 +34,28 @@ nav .nav-list li li {
   font-size: 1.2rem;
   margin: 0 15px;
 }
+nav .arrow {
+  position: fixed;
+  top: 50%;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  transition: all 1s ease-in-out;
+}
+nav .arrow div {
+  height: 3px;
+  width: 20px;
+  background-color: white;
+  transition: all 0.8s ease-in-out;
+}
+nav .arrow .line1 {
+  transform: rotate(45deg);
+  margin-bottom: 9px;
+}
+nav .arrow .line2 {
+  margin-top: 9px;
+  transform: rotate(-45deg);
+}
 
 .cover {
   display: none;
@@ -49,6 +71,17 @@ nav .nav-list li li {
 .open {
   width: 100vw !important;
   max-width: 300px;
+}
+
+.arrow-transformed {
+  transition: all 0.75s ease-in-out;
+  left: 250px !important;
+}
+.arrow-transformed .line1 {
+  transform: rotate(-45deg) !important;
+}
+.arrow-transformed .line2 {
+  transform: rotate(45deg) !important;
 }
 
 .week1 {

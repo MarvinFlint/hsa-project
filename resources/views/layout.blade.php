@@ -36,6 +36,10 @@
                 <li class="menu-main">About</li>
                 <li class="menu-main">Contact</li>
             </ul>
+            <div class="arrow">
+                <div class="line1"></div>
+                <div class="line2"></div>
+            </div>
         </nav>
 
 
