@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/week1', function (){
-    return view('week1');
+Route::get('/webtech', function (){
+    return view('webtech');
 });
