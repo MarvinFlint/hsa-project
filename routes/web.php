@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/webtech', function (){
     return view('webtech');
 });
+
+Route::get('/webtech/week1', function (){
+    return view('week1');
+});
